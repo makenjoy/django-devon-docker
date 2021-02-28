@@ -19,7 +19,7 @@ docker build -t django-sample .
 ```
 
 ```
-$ docker run -it --rm \
+docker run -it --rm \
     --name db \
     -e POSTGRES_DB=djangosample \
     -e POSTGRES_USER=sampleuser \
@@ -29,7 +29,7 @@ $ docker run -it --rm \
 ```
 
 ```
-$ docker run -it --rm \
+docker run -it --rm \
     -p 8000:8000 \
     --link db \
     -e DJANGO_DB_HOST=db \
