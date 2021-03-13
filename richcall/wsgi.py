@@ -1,5 +1,5 @@
 """
-WSGI config for djangosample project.
+WSGI config for richcall project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'djangosample.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'richcall.settings')
 
 application = get_wsgi_application()

@@ -5,7 +5,7 @@ WORKDIR /app
 ADD    ./requirements.txt   /app/
 RUN    pip install -r requirements.txt
 
-ADD    ./djangosample   /app/djangosample/
+ADD    ./richcall   /app/richcall/
 ADD    ./manage.py      /app/
 # ADD    ./gunicorn       /app/gunicorn/
 
