@@ -40,3 +40,18 @@ docker run -it --rm \
     "./manage.py makemigrations && ./manage.py migrate && ./manage.py runserver 0:8000"
 ```
 
+```
+Purging All Unused or Dangling Images, Containers, Volumes, and Networks To additionally remove any stopped containers and all unused images (not just dangling images): -a
+```
+```
+docker ps -a
+docker rm -f [container-info]
+```
+`docker system prune -a`
+
+`docker image prune`
+
+`docker volume prune`
+
+`docker network prune`
+
