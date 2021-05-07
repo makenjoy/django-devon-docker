@@ -29,7 +29,7 @@ $ git clone https://github.com/makenjoy/django-devon-docker.git
 docker build -t richcall-django .
 ```
 
-### Windows CMD (Line-Feed:`)
+### Windows CMD ( Line-Feed: ` )
 
 ```
 docker run -it --rm `
@@ -52,7 +52,7 @@ docker run -it --rm `
     postgres
 ```
 
-### Unix-Like CMD (Line-Feed:`)
+### Unix-Like CMD ( Line-Feed: ` )
 
 ```
 docker run -it --rm \
